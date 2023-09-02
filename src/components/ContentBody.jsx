@@ -29,9 +29,15 @@ function ContentBody({ channelRef }) {
           <span className="heading-section">here's what's happening</span>{" "}
           <button onClick={handleToggle}>
             {isToggle ? (
-              <BsToggleOn style={{ color: "#2F82F7" }} size={30} />
+              <BsToggleOn
+                style={{ color: "#2F82F7", cursor: "pointer" }}
+                size={30}
+              />
             ) : (
-              <BsToggleOff style={{ color: "#2F82F7" }} size={30} />
+              <BsToggleOff
+                style={{ color: "#2F82F7", cursor: "pointer" }}
+                size={30}
+              />
             )}
           </button>
           <span>DEMO DATA</span>
