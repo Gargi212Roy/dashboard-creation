@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(18, 32, 59, 0.09);
+  width: 100vw;
+  height: 61px;
+
+  .company-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    div {
+      color: #2f82f7;
+      text-align: right;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 16.714px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28.286px; /* 169.231% */
+      span {
+        color: #2668c6;
+        font-family: Plus Jakarta Sans;
+        font-size: 16.714px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28.286px;
+      }
+    }
+  }
+
+  .notification-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    .mail-info {
+      position: relative;
+      div {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #fff;
+        text-align: center;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        background-color: #4f46e5;
+        width: 15px;
+        height: 17px;
+        padding-bottom: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.logout {
+  border: solid 1px #e54343;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+  color: rgb(241, 231, 229);
+  background-color: #e54343;
+  cursor: pointer;
+}

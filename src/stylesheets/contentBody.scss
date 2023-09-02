@@ -1,0 +1,32 @@
+.body-container {
+  display: flex;
+  align-items: flex-start;
+  div {
+    .heading {
+      margin-left: 100px;
+      margin-top: 30px;
+      color: #18181b;
+      font-family: Plus Jakarta Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      .heading-section {
+        color: #71717a;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+      }
+      button {
+        padding-left: 42px;
+        background-color: #fff;
+        border: none;
+        padding-right: 5px;
+      }
+    }
+  }
+}
